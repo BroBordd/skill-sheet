@@ -8,6 +8,19 @@
 </head>
 <body>
   <div class="layout">
+
+    <!-- Mobile top bar -->
+    <div class="topbar">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <span class="topbar-title" id="topbar-title">Skills</span>
+    </div>
+
+    <!-- Drawer overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar / Drawer -->
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-header">
         <div class="avatar"></div>
@@ -22,8 +35,9 @@
       </div>
     </aside>
 
+    <!-- Main content -->
     <main class="content" id="content">
-      <div class="content-header" id="content-header">
+      <div class="content-header">
         <span class="content-icon" id="content-icon"></span>
         <div>
           <h1 class="content-title" id="content-title"></h1>
@@ -32,8 +46,8 @@
       </div>
       <div class="card-grid" id="card-grid"></div>
     </main>
-  </div>
 
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
