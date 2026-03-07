@@ -1,0 +1,35 @@
+[
+  {
+    "category": "Languages",
+    "icon": "🗣️",
+    "items": [
+      { "name": "Can read Japanese", "note": "Comfortable with hiragana, katakana, and basic kanji" },
+      { "name": "Arabic — Native", "note": "Full fluency, reading and writing" },
+      { "name": "English — Fluent", "note": "Professional and academic use" }
+    ]
+  },
+  {
+    "category": "Programming",
+    "icon": "💻",
+    "items": [
+      { "name": "Python", "note": "Scripting, automation, bots" },
+      { "name": "Bash", "note": "Shell scripting and system tasks" },
+      { "name": "HTML & CSS", "note": "Front-end markup and styling" }
+    ]
+  },
+  {
+    "category": "Sciences",
+    "icon": "🔬",
+    "items": [
+      { "name": "Organic Chemistry", "note": "Reaction mechanisms, nomenclature, structural analysis" },
+      { "name": "Evolutionary Biology", "note": "Genetics, natural selection, population dynamics" }
+    ]
+  },
+  {
+    "category": "Hardware",
+    "icon": "🖥️",
+    "items": [
+      { "name": "PC Building", "note": "Component selection, assembly, troubleshooting" }
+    ]
+  }
+]
