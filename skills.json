@@ -35,11 +35,14 @@
       { "name": "HTML & CSS", "note": "Front-end markup and styling" },
       { "name": "C", "note": "Basic systems-level programming in C" },
       { "name": "Rust", "note": "Basic familiarity with Rust" },
+      { "name": "Lua", "note": "Basic scripting — syntax feels familiar coming from Python" },
+      { "name": "Haskell", "note": "Basic functional programming concepts" },
       { "name": "Bash / Shell Scripting", "note": "Pro-level — writes complex scripts fluently in bash and sh" },
       { "name": "Termux", "note": "Heavy Termux user — full Linux environment on Android" },
       { "name": "Windows CMD & PowerShell", "note": "Comfortable with Windows command line tools and scripting" },
       { "name": "Web Scraping", "note": "Extracting and parsing data from websites — finds it fun" },
       { "name": "Regular Expressions", "note": "Basic regex for pattern matching and text processing" },
+      { "name": "XML / HTML Parsing", "note": "Comfortable reading and working with structured markup formats" },
       { "name": "Pixel Art", "note": "Creating art within the pixel grid constraint" }
     ]
   },
@@ -78,6 +81,8 @@
     "items": [
       { "name": "Client-Server Communication", "note": "Can talk to servers, send/receive requests, handle responses" },
       { "name": "Local Server Hosting", "note": "Sets up and runs local servers — always finds it useful" },
+      { "name": "SSH", "note": "Used extensively — with GitHub, Codespaces, remote machines, key-based auth" },
+      { "name": "iptables", "note": "Familiar with iptables for packet filtering and firewall rules — finds it fun" },
       { "name": "WiFi & Wireless Hacking", "note": "Uses airmon-ng, MDK4, and related tools with a wireless adapter (wlan1)" },
       { "name": "Router & WiFi Fundamentals", "note": "Understands channels, bands, interference and home router config — knowledge built through wireless tools" }
     ]
@@ -87,7 +92,11 @@
     "icon": "⚙️",
     "items": [
       { "name": "Binary & Byte Structure", "note": "Understands how data is represented from binary up — and how programming languages are built on top of that foundation" },
-      { "name": "File Systems", "note": "Understands how file systems like FAT32 and ext4 store and organize data at a structural level" }
+      { "name": "File Systems", "note": "Understands how file systems like FAT32 and ext4 store and organize data at a structural level" },
+      { "name": "Endianness", "note": "Knows the difference between big-endian and little-endian byte ordering and why it matters" },
+      { "name": "CPU Architectures", "note": "Familiar with different CPU architectures and how they affect compiled code" },
+      { "name": "Compilers vs Interpreters", "note": "Understands how source code becomes executable — the distinction between compiled and interpreted languages" },
+      { "name": "MIME Types & File Magic", "note": "Knows how files are identified by magic bytes and MIME types — not just extensions" },
     ]
   },
   {
@@ -96,6 +105,7 @@
     "items": [
       { "name": "Basic 3D Animation", "note": "Can render simple 3D animations and scenes" },
       { "name": "2D Flipsheet Animation", "note": "Frame-by-frame 2D animation using flipsheet technique" },
+      { "name": "GIF Editing (ezgif)", "note": "Trims, crops, and manipulates GIFs using ezgif and similar tools" },
       { "name": "Music Composition", "note": "Can compose basic original music tracks" },
       { "name": "Video Editing", "note": "Cutting, trimming, and producing video content" },
       { "name": "Image Editing", "note": "Retouching, compositing, and manipulation" },
@@ -110,6 +120,7 @@
     "icon": "🎵",
     "items": [
       { "name": "Advanced Whistling", "note": "Beyond basic — tonal control, range, and technique" },
+      { "name": "Voice Impressions", "note": "Can imitate deep sigma-style voices and rough vocal characters" },
       { "name": "Musical Ear", "note": "Notices background music and rhythm naturally — music is felt, not just heard" }
     ]
   },
@@ -128,7 +139,8 @@
       { "name": "Human Anatomy — Bones", "note": "Can name all bones and their count from memory — studied through Egyptian secondary curriculum" },
       { "name": "Chemistry", "note": "Loves chemistry at every level — organic, biochemical, and physical" },
       { "name": "Light & Color", "note": "Understands reflection and color as arising from atomic-level interactions between light and matter" },
-      { "name": "Human Limitations & Perception Theories", "note": "Fascinated by why humans perceive the world the way they do — color vision limits, sensory gaps, and what we might be missing" },
+      { "name": "Nervous System", "note": "Understands how neurons transmit signals — action potentials, synapses, the basics" },
+      { "name": "ATP & Cellular Energy", "note": "Knows that ATP releases energy by breaking a phosphate bond — how cells actually power themselves" },
       { "name": "First-Principles Reasoning", "note": "Can trace any phenomenon back to its root cause — up to and including electron behaviour as the origin of chemistry, life, and existence" }
     ]
   },
@@ -137,7 +149,8 @@
     "icon": "🧠",
     "items": [
       { "name": "Mental Code Execution", "note": "Can trace and debug code entirely in the mind without running it" },
-      { "name": "Mental 3D Rotation", "note": "Can visualize and rotate three-dimensional objects in the mind's eye" },
+      { "name": "Visual Imagination", "note": "Can mentally imagine and picture things — vivid enough to be useful" },
+      { "name": "Hypnagogic Imagery", "note": "Sees abstract shapes, patterns and forms when closing eyes before sleep — not just darkness" },
       { "name": "Pattern Recognition & IQ-Style Problems", "note": "Strong at spotting patterns and solving logic/IQ test problems" },
       { "name": "Alignment & Symmetry Detection", "note": "Naturally notices when things are off-center or misaligned — linked to an innate sense of imagined lines and geometry" },
       { "name": "Pattern Imagination", "note": "Can mentally project and visualize patterns overlaid on the world" },
@@ -171,6 +184,7 @@
     "items": [
       { "name": "High Kicks", "note": "Capable of delivering high-altitude kicks" },
       { "name": "Fly Kicks", "note": "Airborne kicking technique" },
+      { "name": "Leg Flexibility", "note": "Notably flexible legs — wide range of motion" },
       { "name": "Running", "note": "Enjoys running — endurance over sprinting" },
       { "name": "Single-Leg Balance", "note": "Stable and comfortable standing on one leg" },
       { "name": "Cycling", "note": "Can ride a bike comfortably including one-handed" },
@@ -210,7 +224,7 @@
     "icon": "🫖",
     "items": [
       { "name": "Tea & Herbal Drinks", "note": "Can brew tea and fresh herbal drinks like mint" },
-      { "name": "Fish Deboning", "note": "Can cleanly disassemble a cooked fish to eat — precise and methodical" }
+      { "name": "Basic Home Electrical", "note": "Can handle simple electrical tasks like changing lightbulb fixtures" }
     ]
   },
   {
