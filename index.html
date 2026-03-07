@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Skills</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="page">
-    <header>
-      <h1 class="title">My Skills</h1>
-      <p class="subtitle">A living list of things I know and can do</p>
-    </header>
-    <main id="skills-container">
-      <!-- Skills are injected here by main.js -->
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="avatar">B</div>
+        <div>
+          <div class="sidebar-name">Bedoo</div>
+          <div class="sidebar-sub">Skills & Abilities</div>
+        </div>
+      </div>
+      <nav class="tab-list" id="tab-list"></nav>
+      <div class="sidebar-footer">
+        <span id="skill-count">— skills</span>
+      </div>
+    </aside>
+
+    <main class="content" id="content">
+      <div class="content-header" id="content-header">
+        <span class="content-icon" id="content-icon"></span>
+        <div>
+          <h1 class="content-title" id="content-title"></h1>
+          <p class="content-count" id="content-count"></p>
+        </div>
+      </div>
+      <div class="card-grid" id="card-grid"></div>
     </main>
   </div>
+
   <script src="main.js"></script>
 </body>
 </html>
