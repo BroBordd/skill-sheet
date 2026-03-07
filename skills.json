@@ -1,5 +1,11 @@
 [
   {
+    "_meta": true,
+    "name": "Bedoo",
+    "initial": "B",
+    "subtitle": "Skills & Abilities"
+  },
+  {
     "category": "Languages",
     "icon": "🗣️",
     "items": [

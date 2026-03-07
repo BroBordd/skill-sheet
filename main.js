@@ -37,7 +37,17 @@ function render(categories, idx) {
 
 fetch("skills.json")
   .then(r => r.json())
-  .then(categories => {
+  .then(raw => {
+    const meta = raw.find(e => e._meta);
+    const categories = raw.filter(e => !e._meta);
+
+    // apply meta
+    if (meta) {
+      document.querySelector(".avatar").textContent        = meta.initial  || "?";
+      document.querySelector(".sidebar-name").textContent  = meta.name     || "";
+      document.querySelector(".sidebar-sub").textContent   = meta.subtitle || "";
+      document.title = meta.name ? `${meta.name} — Skills` : "Skills";
+    }
     // total count
     const total = categories.reduce((s, c) => s + c.items.length, 0);
     totalEl.textContent = `${total} skills total`;
