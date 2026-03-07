@@ -31,5 +31,18 @@
     "items": [
       { "name": "PC Building", "note": "Component selection, assembly, troubleshooting" }
     ]
+  },
+  {
+    "category": "Physical & Body Control",
+    "icon": "🧬",
+    "items": [
+      { "name": "High Kicks", "note": "Capable of delivering high-altitude kicks" },
+      { "name": "Fly Kicks", "note": "Airborne kicking technique" },
+      { "name": "Ear Rumbling", "note": "Voluntary tensor tympani muscle contraction — a rare ability" },
+      { "name": "Sympathetic System Control", "note": "Can consciously trigger goosebumps on demand" },
+      { "name": "Body Awareness & Blood Flow Focus", "note": "Ability to focus attention and feel blood flow in specific body parts" },
+      { "name": "Ear & Nose Movement", "note": "Voluntary independent movement of ears and nose" },
+      { "name": "Tongue Heart", "note": "Can form a heart shape with the tongue and expand/collapse it" }
+    ]
   }
 ]
