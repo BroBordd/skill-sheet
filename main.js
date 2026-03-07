@@ -38,8 +38,8 @@ function render(categories, idx) {
 fetch("skills.json")
   .then(r => r.json())
   .then(raw => {
-    const meta = raw.find(e => e._meta);
-    const categories = raw.filter(e => !e._meta);
+    const meta = raw.find(e => e._meta === true);
+    const categories = raw.filter(e => e._meta !== true && Array.isArray(e.items));
 
     // apply meta
     if (meta) {
