@@ -216,13 +216,76 @@ body {
 }
 
 /* ── Mobile ── */
-@media (max-width: 600px) {
-  body { overflow: auto; }
-  .layout { flex-direction: column; height: auto; }
-  .sidebar { width: 100%; min-width: unset; border-right: none; border-bottom: 1px solid var(--border); }
-  .tab-list { display: flex; flex-wrap: nowrap; overflow-x: auto; padding: .4rem .5rem; gap: .3rem; }
-  .tab-btn { padding: .4rem .75rem; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 700px) {
+  body { overflow: hidden; }
+
+  .layout { flex-direction: column; height: 100dvh; }
+
+  /* sidebar becomes a top bar */
+  .sidebar {
+    width: 100%;
+    min-width: unset;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  /* compact header */
+  .sidebar-header {
+    padding: .75rem 1rem .65rem;
+  }
+  .avatar { width: 30px; height: 30px; font-size: .8rem; }
+  .sidebar-name { font-size: .82rem; }
+  .sidebar-sub  { font-size: .68rem; }
+
+  /* horizontal scrolling pill tabs */
+  .tab-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: .4rem .75rem .5rem;
+    gap: .4rem;
+    scrollbar-width: none;
+  }
+  .tab-list::-webkit-scrollbar { display: none; }
+
+  .tab-btn {
+    padding: .35rem .8rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: .78rem;
+    border: 1px solid var(--border);
+  }
+  .tab-btn.active {
+    background: var(--active);
+    border-color: var(--accent);
+  }
   .tab-btn.active::before { display: none; }
-  .sidebar-header, .sidebar-footer { display: none; }
-  .content { padding: 1.25rem 1rem 2rem; }
+  .tab-count { display: none; }
+
+  .sidebar-footer { display: none; }
+
+  /* content fills remaining space and scrolls */
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.1rem .9rem 2rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .content-header { margin-bottom: 1.1rem; padding-bottom: 1rem; }
+  .content-icon   { font-size: 1.5rem; }
+  .content-title  { font-size: 1.1rem; }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: .65rem;
+  }
+
+  .skill-card { padding: .8rem .9rem; }
+  .skill-name { font-size: .82rem; }
+  .skill-note { font-size: .7rem; }
 }
