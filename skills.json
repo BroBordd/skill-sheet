@@ -1,9 +1,9 @@
 [
   {
     "_meta": true,
-    "name": "Bedoo",
+    "name": "BrotherBoard",
     "initial": "B",
-    "subtitle": "Skills & Abilities"
+    "subtitle": "Skills"
   },
   {
     "category": "Languages",
@@ -57,18 +57,13 @@
       { "name": "Android Partition Structure", "note": "boot, system, vendor, and more — essential for porting work" },
       { "name": "SELinux Policies", "note": "Permissive vs enforcing modes, how contexts affect Android behaviour" },
       { "name": "init.d & Prop Tweaks", "note": "init.d scripts and build.prop modifications for system customization" },
-      { "name": "CPU Frequency & System Monitoring", "note": "Governors, frequencies, temps and system metrics" },
-      { "name": "Framebuffer (fb0)", "note": "Direct writes to /dev/fb0 — low-level screen manipulation without a display server" },
-      { "name": "Logcat", "note": "Reading and interpreting logcat output for ROM and app debugging" },
-      { "name": "Termux", "note": "Full Linux environment on Android — daily driver for terminal work" }
+      { "name": "CPU Frequency & System Monitoring", "note": "Governors, frequencies, temps and system metrics" }
     ]
   },
   {
     "category": "Systems & Hardware",
     "icon": "🖥️",
     "items": [
-      { "name": "PC Building", "note": "Component selection, assembly, troubleshooting" },
-      { "name": "Linux — Multiple Distros", "note": "Ubuntu, Lubuntu, Debian and others — comfortable across environments" },
       { "name": "Window Managers", "note": "WM configuration and desktop environment customization" },
       { "name": "Dual Boot & BCD Editing", "note": "Dual-boot setup and Boot Configuration Data manipulation" },
       { "name": "Windows Internals", "note": "Registry, services, boot process, system tools" },
@@ -80,8 +75,6 @@
     "icon": "🌐",
     "items": [
       { "name": "Local Server Hosting", "note": "Sets up and runs local servers" },
-      { "name": "SSH", "note": "Extensive use — GitHub, Codespaces, remote machines, key-based auth" },
-      { "name": "curl", "note": "API testing, endpoint probing, file downloads" },
       { "name": "WiFi & Wireless Tools", "note": "airmon-ng, MDK4, wireless adapter work" },
       { "name": "Router & WiFi Fundamentals", "note": "Channels, bands, interference, home router configuration" }
     ]
@@ -93,11 +86,7 @@
       { "name": "Read Binary", "note": "Able to read binary into int with eye" },
       { "name": "Binary & Byte Structure", "note": "How data is represented from binary up through programming languages" },
       { "name": "File Systems", "note": "FAT32, ext4 — how data is stored and organized at a structural level" },
-      { "name": "Endianness", "note": "Big-endian vs little-endian byte ordering" },
       { "name": "CPU Architectures", "note": "How architecture affects compiled code and toolchains" },
-      { "name": "Compilers vs Interpreters", "note": "How source code becomes executable" },
-      { "name": "Signals & Process Trapping", "note": "SIGTERM, SIGKILL — trapping and handling signals in scripts" },
-      { "name": "MIME Types & File Magic", "note": "File identification by magic bytes rather than extensions" },
       { "name": "Telegram Bot Development", "note": "Builds Telegram bots regularly — API calls, webhooks, inline buttons, dynamic content" }
     ]
   },
@@ -115,33 +104,6 @@
       { "name": "3D Drawing", "note": "Freehand three-dimensional forms and geometric shapes" },
       { "name": "Story Writing", "note": "Narrative fiction and creative writing" },
       { "name": "Formal English Writing", "note": "Polished formal documents and emails — precise and occasionally poetic word choice" }
-    ]
-  },
-  {
-    "category": "Science & Knowledge",
-    "icon": "⚛️",
-    "items": [
-      { "name": "Quantum Mechanics & Relativity", "note": "Wave-particle duality, spacetime, relativistic effects" },
-      { "name": "Cosmology", "note": "Big Bang, cosmic structure, entropy, fate of the universe" },
-      { "name": "Biology & Genetics", "note": "Cell division, DNA/RNA, evolution, nervous system, anatomy" },
-      { "name": "Organic Chemistry", "note": "Reaction mechanisms, nomenclature, structural analysis" },
-      { "name": "Immunology", "note": "Vaccine-trained immunity vs passive antibody response" },
-      { "name": "First-Principles Reasoning", "note": "Traces any phenomenon to root cause — from electron behaviour up to chemistry, life, and existence" }
-    ]
-  },
-  {
-    "category": "Mind & Cognition",
-    "icon": "🧠",
-    "items": [
-      { "name": "Mental Code Execution", "note": "Traces and debugs code entirely in the mind without running it" },
-      { "name": "Mental 3D Rotation", "note": "Visualizes and rotates three-dimensional objects mentally" },
-      { "name": "Pattern Recognition", "note": "Strong at spotting patterns in data, logic problems, and IQ-style tasks" },
-      { "name": "Alignment & Symmetry Detection", "note": "Instantly notices misalignment — linked to an innate sense of geometry and imagined lines" },
-      { "name": "Multilingual Thinking", "note": "Thinks in English, Egyptian Arabic, or Japanese — switches fully between them" },
-      { "name": "Meditation & Neural Control", "note": "Understands and performs meditation as deliberate neural pathway activation" },
-      { "name": "Conscious Body Awareness", "note": "Feels heartbeat, blood flow, and dopamine responses — strong interoceptive awareness" },
-      { "name": "Voluntary Mental Suppression", "note": "Can silence and blank mental activity on demand" },
-      { "name": "Existential & Philosophical Reasoning", "note": "Thinks deeply about consciousness, free will, death, time and existence" }
     ]
   }
 ]
