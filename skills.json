@@ -12,7 +12,7 @@
       { "name": "Arabic — Native", "note": "Full fluency, reading and writing" },
       { "name": "English — Fluent", "note": "Professional and academic use" },
       { "name": "French — Secondary", "note": "Studied as a side subject through Egyptian secondary school" },
-      { "name": "Can read Japanese", "note": "Comfortable with hiragana, katakana, and basic kanji" }
+      { "name": "Japanese — Reading", "note": "Comfortable with hiragana, katakana, and basic kanji" }
     ]
   },
   {
@@ -31,208 +31,117 @@
       { "name": "Python", "note": "Scripting, automation, bots" },
       { "name": "JavaScript", "note": "Front-end logic, DOM manipulation, web apps" },
       { "name": "Java", "note": "General-purpose and Android development" },
-      { "name": "Android Apps", "note": "Mobile app development for Android" },
+      { "name": "Bash / Shell Scripting", "note": "Pro-level — complex scripts, signals, trapping, process management" },
+      { "name": "C", "note": "Basic systems-level programming" },
+      { "name": "Rust", "note": "Basic familiarity" },
+      { "name": "Lua", "note": "Basic scripting" },
+      { "name": "Haskell", "note": "Basic functional programming" },
       { "name": "HTML & CSS", "note": "Front-end markup and styling" },
-      { "name": "C", "note": "Basic systems-level programming in C" },
-      { "name": "Rust", "note": "Basic familiarity with Rust" },
-      { "name": "Lua", "note": "Basic scripting — syntax feels familiar coming from Python" },
-      { "name": "Haskell", "note": "Basic functional programming concepts" },
-      { "name": "Bash / Shell Scripting", "note": "Pro-level — writes complex scripts fluently in bash and sh" },
-      { "name": "Termux", "note": "Heavy Termux user — full Linux environment on Android" },
-      { "name": "Windows CMD & PowerShell", "note": "Comfortable with Windows command line tools and scripting" },
-      { "name": "Web Scraping", "note": "Extracting and parsing data from websites — finds it fun" },
-      { "name": "Regular Expressions", "note": "Basic regex for pattern matching and text processing" },
-      { "name": "XML / HTML Parsing", "note": "Comfortable reading and working with structured markup formats" },
-      { "name": "Pixel Art", "note": "Creating art within the pixel grid constraint" }
+      { "name": "Regular Expressions", "note": "Pattern matching and text processing" },
+      { "name": "XML / HTML Parsing", "note": "Reading and working with structured markup formats" }
     ]
   },
   {
     "category": "Android & Mobile",
     "icon": "📱",
     "items": [
-      { "name": "APK Unpacking & Patching", "note": "Can decompile, modify, and repack Android APKs" },
+      { "name": "Android App Development", "note": "Mobile app development for Android" },
+      { "name": "ROM Porting & Custom Firmware", "note": "Built custom firmwares, ported OneUI to devices, fixed ROM-level bugs" },
       { "name": "Phone Rooting", "note": "Rooted countless Android devices across various models" },
-      { "name": "Custom Firmware & ROM Porting", "note": "Built custom firmwares, ported OneUI to devices, and fixed ROM-level bugs" },
-      { "name": "ADB", "note": "Very comfortable with Android Debug Bridge — essential daily tool" },
-      { "name": "Root Frameworks", "note": "Experienced with Magisk, Xposed, and KernelSU (KSU)" },
-      { "name": "Logcat", "note": "Can read and interpret logcat output — essential for ROM debugging" },
-      { "name": "Custom Recovery (TWRP)", "note": "Comfortable flashing and working with custom recoveries" },
-      { "name": "Android Partition Structure", "note": "Understands boot, system, vendor and other partitions — essential knowledge from ROM porting" },
-      { "name": "Smali Editing", "note": "Can read and modify Smali bytecode for APK/ROM patching" },
-      { "name": "init.d & Prop Tweaks", "note": "Uses init.d scripts and build.prop modifications for system customization" },
-      { "name": "Framebuffer (fb0) Play", "note": "Can write directly to /dev/fb0 — low-level screen manipulation without a display server" }
+      { "name": "Root Frameworks", "note": "Magisk, Xposed, and KernelSU — module usage and configuration" },
+      { "name": "APK Unpacking & Patching", "note": "Decompile, modify, and repack Android APKs" },
+      { "name": "Smali Editing", "note": "Read and modify Smali bytecode for APK and ROM patching" },
+      { "name": "ADB", "note": "Deep daily use — debugging, shell access, file transfer, scripting" },
+      { "name": "Fastboot", "note": "Flashing partitions, unlocking bootloaders" },
+      { "name": "Custom Recovery (TWRP)", "note": "Flashing, backup, and recovery operations" },
+      { "name": "Android Partition Structure", "note": "boot, system, vendor, and more — essential for porting work" },
+      { "name": "SELinux Policies", "note": "Permissive vs enforcing modes, how contexts affect Android behaviour" },
+      { "name": "init.d & Prop Tweaks", "note": "init.d scripts and build.prop modifications for system customization" },
+      { "name": "CPU Frequency & System Monitoring", "note": "Governors, frequencies, temps and system metrics" },
+      { "name": "Framebuffer (fb0)", "note": "Direct writes to /dev/fb0 — low-level screen manipulation without a display server" },
+      { "name": "Logcat", "note": "Reading and interpreting logcat output for ROM and app debugging" },
+      { "name": "Termux", "note": "Full Linux environment on Android — daily driver for terminal work" }
     ]
   },
   {
-    "category": "Hardware & Systems",
+    "category": "Systems & Hardware",
     "icon": "🖥️",
     "items": [
       { "name": "PC Building", "note": "Component selection, assembly, troubleshooting" },
-      { "name": "Dual Boot Setup", "note": "Can configure dual-boot Windows systems and manage BCD entries" },
-      { "name": "BCD Editing", "note": "Boot Configuration Data manipulation for boot menu control" },
-      { "name": "Linux — Multiple Distros", "note": "Used Ubuntu, Lubuntu, Debian and others — comfortable with Linux environments" },
-      { "name": "Window Managers", "note": "Familiar with WMs and desktop environment customization" },
-      { "name": "Windows Tinkering", "note": "Enjoys exploring and playing with Windows internals" }
+      { "name": "Linux — Multiple Distros", "note": "Ubuntu, Lubuntu, Debian and others — comfortable across environments" },
+      { "name": "Window Managers", "note": "WM configuration and desktop environment customization" },
+      { "name": "Dual Boot & BCD Editing", "note": "Dual-boot setup and Boot Configuration Data manipulation" },
+      { "name": "Windows Internals", "note": "Registry, services, boot process, system tools" },
+      { "name": "Basic Electronics", "note": "Batteries, motors, mini lamps — simple circuits in practice" }
     ]
   },
   {
     "category": "Networking & Security",
     "icon": "🌐",
     "items": [
-      { "name": "Client-Server Communication", "note": "Can talk to servers, send/receive requests, handle responses" },
-      { "name": "Local Server Hosting", "note": "Sets up and runs local servers — always finds it useful" },
-      { "name": "SSH", "note": "Used extensively — with GitHub, Codespaces, remote machines, key-based auth" },
-      { "name": "iptables", "note": "Familiar with iptables for packet filtering and firewall rules — finds it fun" },
-      { "name": "WiFi & Wireless Hacking", "note": "Uses airmon-ng, MDK4, and related tools with a wireless adapter (wlan1)" },
-      { "name": "Router & WiFi Fundamentals", "note": "Understands channels, bands, interference and home router config — knowledge built through wireless tools" }
+      { "name": "Local Server Hosting", "note": "Sets up and runs local servers" },
+      { "name": "SSH", "note": "Extensive use — GitHub, Codespaces, remote machines, key-based auth" },
+      { "name": "curl", "note": "API testing, endpoint probing, file downloads" },
+      { "name": "WiFi & Wireless Tools", "note": "airmon-ng, MDK4, wireless adapter work" },
+      { "name": "Router & WiFi Fundamentals", "note": "Channels, bands, interference, home router configuration" }
     ]
   },
   {
     "category": "Low-Level & CS Theory",
     "icon": "⚙️",
     "items": [
-      { "name": "Binary & Byte Structure", "note": "Understands how data is represented from binary up — and how programming languages are built on top of that foundation" },
-      { "name": "File Systems", "note": "Understands how file systems like FAT32 and ext4 store and organize data at a structural level" },
-      { "name": "Endianness", "note": "Knows the difference between big-endian and little-endian byte ordering and why it matters" },
-      { "name": "CPU Architectures", "note": "Familiar with different CPU architectures and how they affect compiled code" },
-      { "name": "Compilers vs Interpreters", "note": "Understands how source code becomes executable — the distinction between compiled and interpreted languages" },
-      { "name": "MIME Types & File Magic", "note": "Knows how files are identified by magic bytes and MIME types — not just extensions" },
+      { "name": "Read Binary", "note": "Able to read binary into int with eye" },
+      { "name": "Binary & Byte Structure", "note": "How data is represented from binary up through programming languages" },
+      { "name": "File Systems", "note": "FAT32, ext4 — how data is stored and organized at a structural level" },
+      { "name": "Endianness", "note": "Big-endian vs little-endian byte ordering" },
+      { "name": "CPU Architectures", "note": "How architecture affects compiled code and toolchains" },
+      { "name": "Compilers vs Interpreters", "note": "How source code becomes executable" },
+      { "name": "Signals & Process Trapping", "note": "SIGTERM, SIGKILL — trapping and handling signals in scripts" },
+      { "name": "MIME Types & File Magic", "note": "File identification by magic bytes rather than extensions" },
+      { "name": "Telegram Bot Development", "note": "Builds Telegram bots regularly — API calls, webhooks, inline buttons, dynamic content" }
     ]
   },
   {
     "category": "Media & Creative",
     "icon": "🎬",
     "items": [
-      { "name": "Basic 3D Animation", "note": "Can render simple 3D animations and scenes" },
-      { "name": "2D Flipsheet Animation", "note": "Frame-by-frame 2D animation using flipsheet technique" },
-      { "name": "GIF Editing (ezgif)", "note": "Trims, crops, and manipulates GIFs using ezgif and similar tools" },
-      { "name": "Music Composition", "note": "Can compose basic original music tracks" },
+      { "name": "Basic 3D Animation", "note": "Rendering simple 3D animations and scenes" },
+      { "name": "2D Flipsheet Animation", "note": "Frame-by-frame 2D animation" },
       { "name": "Video Editing", "note": "Cutting, trimming, and producing video content" },
-      { "name": "Image Editing", "note": "Retouching, compositing, and manipulation" },
-      { "name": "GIF & Media Play", "note": "Working with GIFs and various media formats creatively" },
-      { "name": "3D Objects & Shapes Drawing", "note": "Can draw three-dimensional forms and geometric shapes freehand" },
-      { "name": "Story Writing", "note": "Can write narrative fiction and stories" },
-      { "name": "Formal English Writing", "note": "Can write polished formal English — emails, documents — with precise and occasionally poetic word choice" }
+      { "name": "Image Editing", "note": "Retouching, compositing, manipulation" },
+      { "name": "GIF Editing", "note": "Trimming, cropping and manipulating GIFs — ezgif and similar tools" },
+      { "name": "Music Composition", "note": "Basic original music tracks" },
+      { "name": "Pixel Art", "note": "Creating art within the pixel grid constraint" },
+      { "name": "3D Drawing", "note": "Freehand three-dimensional forms and geometric shapes" },
+      { "name": "Story Writing", "note": "Narrative fiction and creative writing" },
+      { "name": "Formal English Writing", "note": "Polished formal documents and emails — precise and occasionally poetic word choice" }
     ]
   },
   {
-    "category": "Music & Sound",
-    "icon": "🎵",
-    "items": [
-      { "name": "Advanced Whistling", "note": "Beyond basic — tonal control, range, and technique" },
-      { "name": "Voice Impressions", "note": "Can imitate deep sigma-style voices and rough vocal characters" },
-      { "name": "Musical Ear", "note": "Notices background music and rhythm naturally — music is felt, not just heard" }
-    ]
-  },
-  {
-    "category": "Science & Curiosity",
+    "category": "Science & Knowledge",
     "icon": "⚛️",
     "items": [
-      { "name": "Quantum Mechanics & Relativity", "note": "Fascinated by quantum behaviour, wave-particle duality, spacetime and relativistic effects" },
-      { "name": "Cosmology", "note": "Deeply interested in the Big Bang, cosmic structure, entropy and the fate of the universe" },
-      { "name": "Spacetime Curvature", "note": "Understands gravity as curvature of spacetime — and correctly notes the 2D blanket analogy breaks unless you imagine it in 3D" },
-      { "name": "Biology", "note": "Absorbs biological knowledge enthusiastically — from cells to organisms to evolution" },
-      { "name": "DNA, RNA & Virology Basics", "note": "Understands the difference between viruses, bacteria, and how genetic information flows" },
-      { "name": "Cell Division & Bacterial Reproduction", "note": "Understands how cells split and how bacteria reproduce — mitosis, binary fission" },
-      { "name": "Immunology", "note": "Understands the difference between vaccine-trained immunity and passive antibody response" },
-      { "name": "Renal System", "note": "Understands kidney filtration at the nephron level — glomerulus, tubules, the works" },
-      { "name": "Human Anatomy — Bones", "note": "Can name all bones and their count from memory — studied through Egyptian secondary curriculum" },
-      { "name": "Chemistry", "note": "Loves chemistry at every level — organic, biochemical, and physical" },
-      { "name": "Light & Color", "note": "Understands reflection and color as arising from atomic-level interactions between light and matter" },
-      { "name": "Nervous System", "note": "Understands how neurons transmit signals — action potentials, synapses, the basics" },
-      { "name": "ATP & Cellular Energy", "note": "Knows that ATP releases energy by breaking a phosphate bond — how cells actually power themselves" },
-      { "name": "First-Principles Reasoning", "note": "Can trace any phenomenon back to its root cause — up to and including electron behaviour as the origin of chemistry, life, and existence" }
+      { "name": "Quantum Mechanics & Relativity", "note": "Wave-particle duality, spacetime, relativistic effects" },
+      { "name": "Cosmology", "note": "Big Bang, cosmic structure, entropy, fate of the universe" },
+      { "name": "Biology & Genetics", "note": "Cell division, DNA/RNA, evolution, nervous system, anatomy" },
+      { "name": "Organic Chemistry", "note": "Reaction mechanisms, nomenclature, structural analysis" },
+      { "name": "Immunology", "note": "Vaccine-trained immunity vs passive antibody response" },
+      { "name": "First-Principles Reasoning", "note": "Traces any phenomenon to root cause — from electron behaviour up to chemistry, life, and existence" }
     ]
   },
   {
-    "category": "Mind & Perception",
+    "category": "Mind & Cognition",
     "icon": "🧠",
     "items": [
-      { "name": "Mental Code Execution", "note": "Can trace and debug code entirely in the mind without running it" },
-      { "name": "Visual Imagination", "note": "Can mentally imagine and picture things — vivid enough to be useful" },
-      { "name": "Hypnagogic Imagery", "note": "Sees abstract shapes, patterns and forms when closing eyes before sleep — not just darkness" },
-      { "name": "Pattern Recognition & IQ-Style Problems", "note": "Strong at spotting patterns and solving logic/IQ test problems" },
-      { "name": "Alignment & Symmetry Detection", "note": "Naturally notices when things are off-center or misaligned — linked to an innate sense of imagined lines and geometry" },
-      { "name": "Pattern Imagination", "note": "Can mentally project and visualize patterns overlaid on the world" },
-      { "name": "Multilingual Thinking", "note": "Thinks in English, Egyptian Arabic, or Japanese — fully switches between them, one at a time" },
-      { "name": "Meditation & Neural Path Control", "note": "Understands meditation as finding and activating specific neural pathways — and can do it deliberately" },
-      { "name": "Dopamine Awareness", "note": "Can consciously feel dopamine responses — understands the reward system from the inside" },
-      { "name": "Heartbeat Awareness", "note": "Can feel own heartbeat without touching chest — strong interoceptive awareness" },
-      { "name": "Brain Blocking", "note": "Can consciously suppress and silence mental activity on demand" },
-      { "name": "Comfort With Silence", "note": "Finds silence natural and valuable — no need to fill it" },
-      { "name": "Consciousness Theory", "note": "Holds that consciousness is either emergent neural complexity building an information-self — or something unknown tied to quantum activity in the brain" },
-      { "name": "Free Will", "note": "Views free will as a product of evolution — a survival construct that feels real because it is real enough to matter" },
-      { "name": "Existential Contemplation", "note": "Thinks deeply about death, time, space, and existence — including what it means that ceasing to exist is escaping the constraints of both" }
-    ]
-  },
-  {
-    "category": "Social & Communication",
-    "icon": "💬",
-    "items": [
-      { "name": "Emotional Intelligence", "note": "Good at reading emotions, empathizing, and navigating social situations" },
-      { "name": "Social Context Reading", "note": "Notices discomfort and reads unspoken social context quickly and accurately" },
-      { "name": "Accent Mimicry", "note": "Can mimic virtually any accent — aided by the phonetic flexibility of the Egyptian Arabic tongue" },
-      { "name": "Multi-Voice Reading", "note": "Can read English text using many distinct internal voices simultaneously" },
-      { "name": "Fast Mobile Typing", "note": "Good English typing speed on phone" },
-      { "name": "English Pronunciation", "note": "Clear and accurate English pronunciation" },
-      { "name": "Readable Handwriting", "note": "Clean, legible handwriting in English" }
-    ]
-  },
-  {
-    "category": "Physical & Body Control",
-    "icon": "🧬",
-    "items": [
-      { "name": "High Kicks", "note": "Capable of delivering high-altitude kicks" },
-      { "name": "Fly Kicks", "note": "Airborne kicking technique" },
-      { "name": "Leg Flexibility", "note": "Notably flexible legs — wide range of motion" },
-      { "name": "Running", "note": "Enjoys running — endurance over sprinting" },
-      { "name": "Single-Leg Balance", "note": "Stable and comfortable standing on one leg" },
-      { "name": "Cycling", "note": "Can ride a bike comfortably including one-handed" },
-      { "name": "Ear Rumbling", "note": "Voluntary tensor tympani muscle contraction — a rare ability" },
-      { "name": "Sympathetic System Control", "note": "Can consciously trigger goosebumps on demand" },
-      { "name": "Body Awareness & Blood Flow Focus", "note": "Ability to focus attention and feel blood flow in specific body parts" },
-      { "name": "Ear & Nose Movement", "note": "Voluntary independent movement of ears and nose" },
-      { "name": "Tongue Heart", "note": "Can form a heart shape with the tongue and expand/collapse it" },
-      { "name": "Tongue Flip — 270°", "note": "Can rotate tongue nearly all the way around" },
-      { "name": "Tongue Sushi Roll", "note": "Can fold and curl the tongue into a sushi-like roll shape" },
-      { "name": "Voluntary Eye Unfocusing", "note": "Can deliberately defocus eyes at will" },
-      { "name": "Close One Eye Without Twitching", "note": "Clean, isolated eye closure with full muscle control" },
-      { "name": "Spock Hand Split 🖖", "note": "Can perform the Vulcan salute hand split" },
-      { "name": "Nose Touch With Tongue", "note": "Can barely reach nose tip with tongue — close enough" },
-      { "name": "Independent Eyebrow Raise", "note": "Can raise left or right eyebrow independently on demand" },
-      { "name": "Larynx Movement", "note": "Can voluntarily move the voice box up and down" }
-    ]
-  },
-  {
-    "category": "Fine Motor & Hands",
-    "icon": "🖐️",
-    "items": [
-      { "name": "Pen Spinning", "note": "Can do thumb-around and other basic pen spinning tricks — full one-handed fine motor control" },
-      { "name": "Cat Sound Imitation", "note": "Convincing cat vocalization" }
-    ]
-  },
-  {
-    "category": "Hands & Making",
-    "icon": "🔧",
-    "items": [
-      { "name": "Invisible Sewing", "note": "Can hand-stitch fabric with clean, nearly invisible seams" },
-      { "name": "Basic Electronics", "note": "Plays with batteries, motors, and mini lamps — understands simple circuits in practice" }
-    ]
-  },
-  {
-    "category": "Kitchen & Life",
-    "icon": "🫖",
-    "items": [
-      { "name": "Tea & Herbal Drinks", "note": "Can brew tea and fresh herbal drinks like mint" },
-      { "name": "Basic Home Electrical", "note": "Can handle simple electrical tasks like changing lightbulb fixtures" }
-    ]
-  },
-  {
-    "category": "Games & Strategy",
-    "icon": "♟️",
-    "items": [
-      { "name": "Chess", "note": "Knows the game, plays at beginner level" },
-      { "name": "Checkers", "note": "Familiar with rules and basic play" }
+      { "name": "Mental Code Execution", "note": "Traces and debugs code entirely in the mind without running it" },
+      { "name": "Mental 3D Rotation", "note": "Visualizes and rotates three-dimensional objects mentally" },
+      { "name": "Pattern Recognition", "note": "Strong at spotting patterns in data, logic problems, and IQ-style tasks" },
+      { "name": "Alignment & Symmetry Detection", "note": "Instantly notices misalignment — linked to an innate sense of geometry and imagined lines" },
+      { "name": "Multilingual Thinking", "note": "Thinks in English, Egyptian Arabic, or Japanese — switches fully between them" },
+      { "name": "Meditation & Neural Control", "note": "Understands and performs meditation as deliberate neural pathway activation" },
+      { "name": "Conscious Body Awareness", "note": "Feels heartbeat, blood flow, and dopamine responses — strong interoceptive awareness" },
+      { "name": "Voluntary Mental Suppression", "note": "Can silence and blank mental activity on demand" },
+      { "name": "Existential & Philosophical Reasoning", "note": "Thinks deeply about consciousness, free will, death, time and existence" }
     ]
   }
 ]
